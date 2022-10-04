@@ -1,0 +1,24 @@
+{
+    "name": "kaisar/design-patterns",
+    "type": "project",
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaisar\\DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shohidullah Kaisar",
+            "email": "ravenkaisar@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
